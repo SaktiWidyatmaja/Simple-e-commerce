@@ -174,7 +174,7 @@ func (r repo) Buy(ctx *gin.Context) error {
 		}
 
 	} else {
-		err := errors.New("There is no any products in cart")
+		err := errors.New("there is no any products in cart")
 		return err
 	}
 

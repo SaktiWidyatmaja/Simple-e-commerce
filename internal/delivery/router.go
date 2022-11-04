@@ -13,7 +13,7 @@ import (
 )
 
 func Routes(r *gin.Engine) {
-	conn, err := pgx.Connect(context.Background(), "postgres://postgres:Dendesman1@localhost:5432/postgres")
+	conn, err := pgx.Connect(context.Background(), "postgres://postgres:@localhost:5432/postgres")
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "Unable to connect to database: %v\n", err)
 		os.Exit(1)
