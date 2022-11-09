@@ -1,9 +1,0 @@
--- INSERT INTO products (name, price, quantity, imageurl,description, sku)
--- VALUES ('try2', 99, 1, 'http', 'nice', 010);
-
-ALTER TABLE products AUTO_INCREMENT=1
-
--- SELECT * FROM products
--- ALTER TABLE products ADD COLUMN id SERIAL PRIMARY KEY;
-
--- DELETE FROM products
